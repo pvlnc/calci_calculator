@@ -1,0 +1,92 @@
+.mainContainer {
+  padding: 10px;
+  min-width: 300px;
+  max-width: 50%;
+  margin: auto;
+  padding-bottom: 35px;
+  position: relative;
+}
+.inputText {
+  padding: 20px 5px;
+  min-width: 285px;
+  max-width: 40vh;
+  margin: 0px 10px 0px -3px;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: center;
+}
+.text {
+  margin: 5px auto;
+  width: 100%;
+  height: 70px;
+  font-size: 50px;
+  float: left;
+  text-align: left;
+  color: #dadce0;
+  border: none;
+  border-radius: 10px;
+}
+.resultValue {
+  text-align: right;
+  font-size: 40px;
+  color: #090909;
+  width: 90%;
+  border: none;
+  margin: 10px;
+}
+.clickButton {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 5px;
+  height: auto;
+  margin: 10px -5px;
+}
+
+.clearButton {
+  width: 10%;
+  height: 35px;
+  padding: 5px;
+  font-size: 15px;
+  margin-right: 20px;
+  border: none;
+  color: rgb(7, 20, 57);
+  /* background-color: #ffffff; */
+  color: #171616;
+  border-radius: 100%;
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: -5px;
+  font-weight: 300;
+  text-align: center;
+  align-content: center;
+}
+.clearButton:hover {
+  color: #c1244b;
+  font-weight: 600;
+}
+
+.buttonClick {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #efefef;
+  color: #090909;
+  margin: 2px;
+}
+.buttonClick:hover {
+  background-color: #e1e4e9;
+  color: #090909;
+  font-weight: 600;
+}
+.equal {
+  background-color: #4285f4 !important;
+  color: #ffffff !important;
+}
+.equal:hover {
+  background-color: #2262c8 !important;
+  color: #ffffff !important;
+}
