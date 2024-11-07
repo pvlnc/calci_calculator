@@ -1,0 +1,36 @@
+.history{
+    padding: 0px 10px;
+}
+.clear {
+    color: rgb(7, 20, 57);
+    padding: 0px 25px 10px 10px;
+    margin: -10px;
+    border-radius: 10px;
+    text-align: right;
+    top: 0px;
+    cursor: pointer;
+    width: 10px;
+    float: right;
+
+  }
+  .clear:hover {
+    color: #c1244b!important;
+  font-weight: 600;
+  }
+
+
+  .scrollHistory {
+    overflow: auto;
+    width: 200px;
+    height: 20px;
+    resize: none;
+  }
+ 
+  .scrollHistory::-webkit-scrollbar {
+    width: 0px;
+    scroll-behavior: smooth;
+  }
+
+  textarea::-webkit-scrollbar-thumb {
+    background-color: #2262c8;
+  }= 

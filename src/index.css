@@ -1,10 +1,11 @@
 body{
-    background: rgb(106,44,104);
-    background: linear-gradient(300deg, rgba(106,44,104,1) 0%, rgba(16,80,65,1) 52%, rgba(44,72,106,1) 100%);
+    background: #acb6e5;  
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5); 
+    background: linear-gradient(to right, #86fde8, #acb6e5); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-origin: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
+    font-family:'Times New Roman', Times, serif
+}   
